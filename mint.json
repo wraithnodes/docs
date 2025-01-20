@@ -145,5 +145,10 @@
     "thumbsRating": true,
     "suggestEdit": true,
     "raiseIssue": true
+  },
+  "analytics": {
+    "plausible": {
+        "domain": "plausible.amogusreal69.me"
+    }
   }
 }
