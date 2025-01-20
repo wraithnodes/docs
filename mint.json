@@ -148,7 +148,8 @@
   },
   "analytics": {
     "plausible": {
-        "domain": "plausible.amogusreal69.me"
+        "domain": "docs.wraithnodes.net",
+        "server": "plausible.amogusreal69.me"
     }
   }
 }
