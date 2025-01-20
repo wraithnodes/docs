@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "WraithNodes Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://panel.wraithnodes.net/assets/logo.png",
+    "light": "https://panel.wraithnodes.net/assets/logo.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://panel.wraithnodes.net/assets/logo.png",
   "colors": {
     "primary": "#1c1c28",
     "light": "#8367FF",
