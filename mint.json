@@ -2,10 +2,11 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "WraithNodes Documentation",
   "logo": {
-    "dark": "https://panel.wraithnodes.net/assets/logo.png",
-    "light": "https://panel.wraithnodes.net/assets/logo.png"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png",
+    "href": "https://wraithnodes.net"
   },
-  "favicon": "https://panel.wraithnodes.net/assets/logo.png",
+  "favicon": "/logo/logo.png",
   "colors": {
     "primary": "#1c1c28",
     "light": "#8367FF",
@@ -14,6 +15,21 @@
       "from": "#0D9373",
       "to": "#07C983"
     }
+  },
+  "theme": "prism",
+  "layout": "sidenav",
+  "background": {
+    "style": "windows"
+  },
+  "sidebar": {
+    "items": "border"
+  },
+  "topbar": {
+    "style": "gradient"
+  },
+  "search": {
+    "location": "side",
+    "prompt": "Search for..."
   },
   "topbarLinks": [
     {
@@ -31,7 +47,9 @@
   ],
   "topbarCtaButton": {
     "name": "Create a free server",
-    "url": "https://dash.wraithnodes.net"
+    "url": "https://dash.wraithnodes.net",
+    "style": "roundedRectangle",
+    "arrow": true
   },
   "tabs": [],
   "anchors": [
@@ -41,14 +59,24 @@
       "url": "https://wraithnodes.net"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Dashboard",
+      "icon": "chart-line",
+      "url": "https://dash.wraithnodes.net"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Panel",
+      "icon": "server",
+      "url": "https://panel.wraithnodes.net"
+    },
+    {
+      "name": "Uptime",
+      "icon": "clock",
+      "url": "https://status.wraithnodes.net"
+    },
+    {
+      "name": "Billing",
+      "icon": "money-bill",
+      "url": "https://billing.wraithnodes.tech"
     }
   ],
   "navigation": [
@@ -86,9 +114,36 @@
       ]
     }
   ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/vfab9JR9PF",
+      "website": "https://wraithnodes.net",
+      "github": "https://github.com/wraithnodes"
+    },
+    "links": [
+      {
+        "title": "Quick Links",
+        "links": [
+          { "label": "Billing Panel", "url": "https://billing.wraithnodes.tech" },
+          { "label": "Free Game Panel", "url": "https://panel.wraithnodes.net" },
+          { "label": "About Us", "url": "https://www.wraithnodes.net/about" },
+          { "label": "Contact Us", "url": "https://discord.gg/4Uz7URKut9" },
+          { "label": "Legal", "url": "https://www.wraithnodes.net/legal" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Server Status", "url": "https://status.wraithnodes.net" },
+          { "label": "Knowledgebase", "url": "https://docs.wraithnodes.net" },
+          { "label": "Our Partners", "url": "https://www.wraithnodes.net/partners" }
+        ]
+      }
+    ]
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true,
+    "raiseIssue": true
   }
 }
