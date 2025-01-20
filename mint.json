@@ -18,24 +18,27 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://discord.gg/vfab9JR9PF"
+    },
+    {
+      "name": "Panel",
+      "url": "https://panel.wraithnodes.net"
+    },
+    {
+      "name": "Billing",
+      "url": "https://billing.wraithnodes.tech"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Create a free server",
+    "url": "https://dash.wraithnodes.net"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Website",
+      "icon": "globe",
+      "url": "https://wraithnodes.net"
     },
     {
       "name": "Community",
