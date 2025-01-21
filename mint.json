@@ -83,7 +83,8 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction"
+        "introduction",
+        "How to earn coins"
       ]
     }
   ],
