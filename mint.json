@@ -81,10 +81,15 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Overview",
       "pages": [
-        "introduction",
-        "How to earn coins"
+        "introduction"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "earn-coins"
       ]
     }
   ],
