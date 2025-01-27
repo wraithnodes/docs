@@ -124,11 +124,5 @@
     "thumbsRating": true,
     "suggestEdit": true,
     "raiseIssue": true
-  },
-  "analytics": {
-    "plausible": {
-        "domain": "docs.wraithnodes.net",
-        "server": "plausible.amogusreal69.me"
-    }
   }
 }
